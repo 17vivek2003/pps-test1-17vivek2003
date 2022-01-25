@@ -1,6 +1,6 @@
- gcc -g p0final.c
+cc -g p0final.c
  ./a.out
-Enter your name
+enter your name
 Vivek
 my name is Vivek 
  gcc -g p0final.c
@@ -16,15 +16,15 @@ Type "show configuration" for configuration details.
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>.
 Find the GDB manual and other documentation resources online at:
----Type <return> to continue, or q <return> to quit---
 <http://www.gnu.org/software/gdb/documentation/>.
 For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from a.out...done.
 (gdb) r
-Starting program: /home/runner/pps-test1-17vivek2003-31/a.out 
+Starting program: /home/runner/pps-test1-17vivek2003-36/a.out 
 warning: Error disabling address space randomization: Operation not permitted
-Enter your name
+enter your name
 Vivek
-my name is Vivek[Inferior 1 (process 191) exited normally]
+my name is Vivek[Inferior 1 (process 49) exited normally]
+(gdb) Quit
 (gdb) 
